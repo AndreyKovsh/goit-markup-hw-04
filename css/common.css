@@ -111,22 +111,15 @@ body {
 .item-mail:focus {
   color: var(--accent-color);
 }
+
 .icon-mail {
-  width: 16px;
-  height: 12px;
   margin-right: 10px;
+  fill: currentColor;
 }
-.icon-mail:hover .mail,
-.icon-mail:focus .mail {
-  fill: var(--accent-color);
-}
-.icon-phone:hover .mail {
-  fill: var(--accent-color);
-}
+
 .icon-phone {
-  width: 10px;
-  height: 15px;
   margin-right: 10px;
+  fill: currentColor;
 }
 
 /* Футер */

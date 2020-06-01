@@ -153,12 +153,28 @@ body {
   line-height: 1.71;
 }
 
-.footer.title {
+.footer-title {
   margin-left: 69px;
+  margin-bottom: 28px;
 
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
+}
+.join {
+  margin-top: 8px;
+  margin-bottom: 21px;
+  text-transform: uppercase;
+}
+.footer .element {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  color: var(--primary-white-color);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer .subscript {
@@ -170,6 +186,7 @@ body {
 }
 
 .footer .text {
+  margin-top: 9px;
   color: rgba(255, 255, 255, 0.6);
 }
 

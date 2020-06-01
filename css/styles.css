@@ -201,7 +201,6 @@
   width: 44px;
   height: 44px;
   color: #afb1b8;
-  background-color: var(--primary-white-color);
   border-radius: 50%;
   align-items: center;
   justify-content: center;
@@ -211,12 +210,12 @@
   margin-left: 10px;
 }
 .element-icon {
-  padding: 11px;
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
-.element-icon:hover {
+.element:hover {
+  color: var(--primary-white-color);
   fill: var(--primary-white-color);
   background-color: var(--accent-color);
 }

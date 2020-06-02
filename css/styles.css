@@ -300,8 +300,8 @@
   flex-wrap: wrap;
 }
 .main .title {
-  margin-top: 20px;
-  margin-bottom: 0;
+  padding-top: 20px;
+  margin: 0;
   margin-left: 24px;
 
   color: var(--title-text-color);
@@ -314,8 +314,9 @@
 }
 .main .text {
   margin-top: 4px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   margin-left: 24px;
+
   color: var(--primary-text-color);
   background-color: var(--primary-white-color);
 
@@ -324,15 +325,25 @@
 }
 
 .elements {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
   margin-right: 30px;
   margin-bottom: 30px;
-
   width: 370px;
   height: 404px;
 }
+
+.elements:hover {
+  border: 1px solid #eeeeee;
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
 .elements:nth-child(3n) {
   margin-right: 0;
 }
+
 .elements:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
